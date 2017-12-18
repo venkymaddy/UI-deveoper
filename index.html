@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MaddyUi</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="home.component.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.js"></script>  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Venky Madhav </a>
+      </div>
+    
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
+        <ul class="nav navbar-nav navbar-right">    
+            <li><a href="#obj">Objective </a></li>                    
+            <li><a href="#myacademy">Academic Profile</a></li>
+            <li><a href="#work">Work Profile</a></li>
+            <li><a href="#achievement">Achievements</a></li>
+            <li><a href="#personalprofile">Personal Profile</a></li>         
+            <!--
+            <li><a routerLink="/objective" routerLinkActive="active">Objective</a></li>
+            <li><a routerLink="/academicprofile" routerLinkActive="active">Academic Profile</a></li>
+            <li><a routerLink="/workprofile" routerLinkActive="active">Work Profile</a></li>
+            <li><a routerLink="/achievements" routerLinkActive="active">Achievements</a></li>
+            <li><a routerLink="/personalprofile" routerLinkActive="active">Personal Profile</a></li>           
+             -->
+        </ul>           
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid --> 
+</nav>
+
+<!-- <img src="assets/images/cover1.jpg" class="img-responsive">  -->
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval = "2500">
+            
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+                      
+            <div class="carousel-inner">
+                <!-- <div class="item active">
+                <h4>"Completed External Certification in Management of Healthcare conducted by"<br><span>America's Health Insurance Plan</span></h4>
+                </div>
+                <div class="item">
+                <h4>"Has been awarded a spotlight for the excellent delivery of the project"<br> </h4>
+                </div>
+                <div class="item">
+                <h4>"Completed Business English Communication (BEC) certification conducted by "<br><span> Cambridge University </span></h4>
+                </div>  --> 
+                <div class="item active">
+                    <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/zos.png" alt="Paris" width="1200" height="480">
+                </div>  
+                <div class="item">
+                    <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/htmlcss.png" alt="Paris" width="1200" height="480">
+                </div>  
+                <div class="item">
+                      <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/javascript.jpg" alt="Paris" width="1200" height="480">
+                  </div>  
+                <div class="item">
+                    <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/angular2.jpg" alt="Paris" width="1200" height="480">
+                </div>  
+                <div class="item">
+                      <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/adobe.png" alt="Paris" width="1200" height="480">
+                  </div>  
+            </div>    
+            
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>  
+</div>
+
+<div class="container"> 
+<!-- Objectives Section -->
+<div id="obj">  
+    <div style="position:relative;">
+        <div class="box">
+          <h2 style="text-align:center;">  Objectives </h2> 
+        </div>
+    </div>
+  
+    <div class="parallax1">
+      <p> Interested to pursue a long-term career in an Organization which can provide me with challenging carrier opportunities and help
+          me to improve technical and functional knowledge and leverage on experience in the IT Industry. 
+      </p><hr>
+
+      <h2> Experience Summary:  </h2>      
+
+      <p> •	4.8  years of IT experience with primary focus on Development & Enhancements in healthcare domain.  </p>
+      <p> •	Experience in working with VAX/VMS. </p>
+      <p> •	Have good knowledge in SDLC and Defect tracking tools. </p>
+      <p> •	Possess good working knowledge with Cognizant Project Management tools like C20. </p>
+      <p> •	Having Strong analytical and logical skills with ability to follow project standards and procedures as per client specifications along with best practices. </p>
+      <p> •	Highly adaptable in quickly changing technical environments with very strong organizational, analytical and problem-solving skills. </p>
+      <p> •	Trained in C, Java, SQL, COBOL and DB2 as well and willing to learn in advance technologies. </p>
+      <p> •	Excellent inter-personal, Leadership skills and quality conscience. </p>
+      <p> •	Willingness to learn new concepts and acceptance of challenges. </p>                   
+    </div>
+</div>
+
+<div class="parallax2" style="margin-top: -20px; margin-bottom: -10px;">
+      <h1 style="padding-top: 200px; padding-left: 450px; color:white; display: block;"> Scroll Down </h1>
+</div> 
+
+ <!-- Academic Section -->
+<div id="myacademy">    
+    <div style="position:relative;">
+        <div class="box">
+            <h2 style="text-align:center;">  Academic Profile </h2>
+        </div>
+    </div><br>
+
+    <div class="row slideanim1">
+        <div class="col-sm-3">
+            <div class="thumbnail tenth">
+              <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/sslc.jpg" alt="San Francisco"><hr>
+              <div class="overlay1">
+                  <div class="text"> 
+                      <p>I have completed my SSLC on 2006 at T.M.H.N.U.Mat.Hr.Sec.Scool, Theni.</p>
+                      <p>I have secured a percentage of 90.1</p>
+                  </div>                
+                </div>
+                <h3 style="text-align: center"> Tenth </h3>
+                <p style="text-align: center">(Hover to see the details)</p>
+            </div>          
+        </div>
+
+        <div class="col-sm-3">
+            <div class="thumbnail twelth">
+              <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/hsc.jpg" alt="San Francisco" width="400" height="300"><hr>
+              <div class="overlay2">
+                  <div class="text"> 
+                      I have completed my HSC on 2008 at T.M.H.N.U.Mat.Hr.Sec.Scool, Theni.<br>
+                      I have secured a percentage of 90.3
+                  </div>                
+              </div>
+              <h3 style="text-align: center"> Twelth </h3>
+              <p style="text-align: center">(Hover to see the details)</p>
+            </div>          
+        </div>
+
+        <div class="col-sm-3">
+            <div class="thumbnail twelth">
+              <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/bit1.jpg" alt="San Francisco" width="400" height="300"><hr>
+              <div class="overlay2">
+                  <div class="text"> 
+                        I have completed my BE in Mechcanical Enginering on 2012 <br>
+                        I have secured a percentage of 9.31 CGPA
+                  </div>                
+               </div>
+               <h3 style="text-align: center"> U.G Degree </h3>
+               <p style="text-align: center">(Hover to see the details)</p>
+            </div>          
+        </div>            
+        
+        <div class="col-sm-3">
+              <div class="thumbnail twelth">
+                <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/uom.jpg" alt="San Francisco" width="400" height="300"><hr>
+                <div class="overlay2">
+                    <div class="text"> 
+                          I have completed my M.B.A. in System Management on 2016 <br>
+                          I have secured a percentage of 6.4 CGPA
+                    </div>                
+                 </div> 
+                 <h3 style="text-align: center"> P.G Degree </h3>
+                 <p style="text-align: center">(Hover to see the details)</p>
+              </div>          
+        </div>            
+
+    </div>
+
+    <div style="position:relative;">
+        <div class="box">
+          <h2 style="text-align:center;">  Skills </h2> 
+        </div>
+    </div>
+    
+    <div class="skill" >
+          <div class="skills"> 
+              <p><strong> Oprerating System   : IBM Z/OS, Windows 7  </strong></p>
+              <p><strong> Languages           : COBOL, JCL, DCL, VSAM, Core Java </strong></p>
+              <p><strong> Web Technologies    : HTML, CSS </strong></p>
+              <p><strong> Database Known      : DB2, MySQl </strong></p>
+              <p><strong> Scripting Language  : Javascript, Typescript </strong></p>
+              <p><strong> Framework           : Bootstrap, Angular Js 2, Node Js </strong></p>
+              <p><strong> Domain Knowledge    : Healthcare </strong></p>
+              <p><strong> Tools               : ALM Life Cycle Management, Photoshop CS3 </strong></p>
+              <p><strong> IDE                 : Eclipse, Visual Studio Code, NotePad ++ </strong></p>
+          </div>
+    </div>
+
+    <!-- Work Profile -->
+    <div id="work">
+        <div style="position:relative;">
+            <div class="box">
+              <h2 style="text-align:center;">  Work Profile </h2>
+            </div>
+        </div>
+    </div>    
+
+    <div class="proj1">
+        <h3><strong> Project 1: </strong></h3>
+        <p> Automated Business System Portfolio (ABS) is Centene's internal and core system which manages member, group, broker, 
+            provider and claims information supporting California & Oregon Production Units. ABS Portfolio consists of the core modules 
+            such as Provider, Membership/Eligibility, Finance (Billing), Claims, and Benefits. ABS system supports provider processing for
+            Western region i.e. CA, OR and AZ states. The ABS Provider system which is the primary asset of the Health care comprising of 
+            Provider Profiling, Provider Authentication, and Provider Entry into the ABS system. The physicians are enrolled by means of 
+            (Network Data System) NDS application. The physicians are affiliated to the providers under the site based on the network codes. 
+            This project follows Centene PDLC which includes Assessments, Estimation, Solution Document, Build, QA, UAT and Implementation in 
+            a high level. </p>  
+    </div>         
+
+    <div class="resp" style="margin-top: -10px; padding-bottom: 20px; padding-left: 10px;">
+      <h2><strong> Responsibilities </strong></h2>
+      <ul>
+          <li>Working in all SDLC phases for a Work Order, providing support to QA and UAT testers and ensuring 100 % quality with Zero defects.</li>
+          <li>Analysis of the requirements provided by the Business and provide estimates for the same.</li>
+          <li>Preparing the Design documents, Unit/System/UAT test case documents, Unit/System/UAT test results and implementation documents.</li>
+          <li>Coding and testing the code for the given requirements and mentoring the junior team members for the same.</li>
+          <li>Providing ongoing support by resolving the issued reported by Business, within the defined SLA.</li>
+          <li>Share the domain knowledge/technical knowledge to ensure timely deliverables. </li>
+          <li>Trained new members and guided them with my application knowledge.</li>
+                  
+      </ul>    
+    </div>      
+
+    <div class="proj1">
+          <h2><strong> Project 2: (Working on my Own) </strong></h2>
+          <p  style="font-weight: bold;">  Developing the application using the AngularJS 2 framework with the aid of using the bootstrap template, HTML5, CSS3, Javascript. 
+               The application is built with small modules based upon the business logic and all the modules are integrated together and tested.
+               The module contains the root component from which all the components are routed into the parent component.
+               The new components are created based on the requirement and it is merged with the existing features.</p>  
+    </div>         
+
+    <div class="resp" style="margin-top: -10px; padding-bottom: 20px; padding-left: 10px;">
+          <h2><strong> Responsibilities </strong></h2>
+          <ul>
+              <li>HTML element property and Event Binding</li>
+              <li>Creating components, Routing Modules and Directives</li>
+              <li>Implementing the Services as per the business needs</li>
+              <li>Develop CSS templates for table less layout conversion. </li> 
+              <li>Use Photoshop to cut out assets from the original psds.</li> 
+                                                                  </ul>    
+        </div>      
+
+    <!-- Achievements -->
+    <div id="achievement">
+        
+    </div>
+
+    <div class="achieve" style="padding-left: 10px; margin-bottom:-10px;">
+      <h2><strong> Achievements : </strong></h2> 
+          <p> Completed AHM 250 conducted by the America's Health Insurance Plan (AHIP) </p>
+          <p> Completed internal certification in COBOL </p>
+          <p> Completed internal certification in Core Java </p>
+          <p> Has been awarded a spot light for the execellent delivery of the project in 2014 </p>
+          <p> Has been awarded AOM thrice (April, June, November) in this year – 2017 </p>
+          <p> Received appreciation from the Client for the defect implementation of the application </p>
+    </div>         
+    
+    
+  <div class="slideanim">      
+    
+
+<!-- Attitude --> 
+  <div id="personalprofile">
+      <div style="position:relative;">
+          <div class="box">
+            <h2 style="text-align:center;">  Personal Profile </h2> 
+          </div>
+      </div><br>
+      <p> Name:	Venkatesan Manoharan
+      <p> Date of birth:	04/02/1991 </p>
+      <p> Nationality: 	Indian </p>
+      <p> Languages known:	English (R,W,S), Tamil (R,W,S), Hindi (R,W),  Kannada (S) </p>
+      <p> Hobbies:	Solving Sudoku, Badminton, Rubix Cube, Chess </p>
+      <p> Background Details	Joined “Cognizant Technology Solutions” as a Programmer Analyst Trainee in April 2013. Trained as a Mainframe and Java developer during the probation period.</p>  
+      <br>
+      
+      <div class=" text-center slideanim" style= "margin-top:10px;">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/time.jpg" alt="New York"><hr>            
+              <h3> Time Management</h3>
+            </div>
+          </div>
+          
+          <div class="col-sm-4">
+                  <div class="thumbnail team">
+                    <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/client.jpg" alt="San Francisco"><hr>
+                    <h3> Client Interaction </h3>
+                  </div>
+          </div>
+
+          <div class="col-sm-4">
+                  <div class="thumbnail team">
+                    <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/team.jpg" alt="San Francisco"><hr>
+                    <h3> Team Management </h3>
+                  </div>
+          </div>
+      </div>
+
+      <h2> Hobbies:</h2>
+
+      <div id="myHobby" class="carousel slide" data-ride="carousel" data-interval = "2500">
+          
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+                    
+          <div class="carousel-inner hobby">
+              <div class="item active">
+                  <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/badminton.jpg" alt="Paris" width="1200" height="480">
+              </div>  
+              <div class="item">
+                  <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/sudoku-logo.png" alt="Paris" width="1200" height="480">
+              </div>  
+              <div class="item">
+                  <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/cube2.jpg" alt="Paris" width="1200" height="480">
+              </div>  
+              <div class="item">
+                  <img src="C:/Kutty/Study/AngularWork/maddyapp/src/assets/images/chess.jpg" alt="Paris" width="1200" height="480">
+              </div>  
+          </div>    
+          
+          <a class="left carousel-control" href="#myHobby" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="right carousel-control" href="#myHobby" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+          </a>  
+      </div>
+
+      <h2> Location:</h2>
+
+      <div id="map" style="width:100%; height:400px"></div>
+    </div>      
+  </div>             
+
+</div>
+</div>
+
+<!-- <router-outlet></router-outlet> -->
+ 
+
+      <div class="container-fluid footer basement">
+          <div class="col-sm-4 col-lg-8">              
+          <footer class="footer">
+              <small style="color:grey" class="copyright">Copyright &copy 2017 Venky Madhav. All Rights Reserved.</small>
+                  <a href="#"><i style="color:grey" class="fa fa-lg fa-skype pull-right">  </i></a>
+                  <a href="#"><small style="color:grey" class="fa fa-lg fa-google-plus pull-right">  </small></a>
+                  <a href="#"><small style="color:grey" class="fa fa-lg fa-linkedin pull-right">  </small></a>
+                  <a href="#"><small style="color:grey" class="fa fa-lg fa-twitter pull-right">  </small></a>
+                  <a href="#"><small style="color:grey" class="fa fa-lg fa-facebook pull-right">  </small></a>
+          </footer><!--End footer 2--> 
+          </div>          
+      </div>    
+
+  <!-- Smooth Scrolling Effects --> 
+  <script>
+      $(document).ready(function(){
+        $('nav li a').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+          && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target
+            || $('[name=' + this.hash.slice(1) +']');
+            if ($target.length) {
+              var targetOffset = $target.offset().top;
+              $('html,body')
+              .animate({scrollTop: targetOffset}, 2000);
+            return false;
+            }
+          }
+        });
+      });
+  </script>
+
+<!-- Google Map -->
+<script>
+  function initMap() {
+  var location = {lat:9.999329, lng:77.462016};
+  var map = new google.maps.Map(document.getElementById("map"),{zoom: 10, center: location});
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map
+  });
+  }
+  </script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBkHMZK1Pt6Mbgub0GC588sYeMDZ7zg1U&callback=initMap"></script>
+  
+</body>
+</html>
