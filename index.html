@@ -228,7 +228,7 @@ p span{
 }
 
 
-.tenth .overlay1 {
+.tenth .overlay1, .twelth .overlay2 {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -242,26 +242,7 @@ p span{
   background-color: rgb(6, 7, 7);
 }
 
-.tenth:hover .overlay1 {
-  opacity: .8;
-}
- 
-
-.twelth .overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-left: 15px;
-  height: 300px;
-  width: 262px;
-  opacity: 0;
-  transition: .9s ease;
-  background-color: rgb(6, 7, 7);
-}
-
-.twelth:hover .overlay2 {
+.tenth:hover .overlay1, .twelth:hover .overlay2 {
   opacity: .8;
 }
 
@@ -304,6 +285,18 @@ p span{
   }
 }
 
+@media (max-width: 766px){
+  .tenth:hover .overlay1, .twelth:hover .overlay2{
+    width: 100%;
+    height: auto;
+  }
+}
+  @media (min-width: 768px) and (max-width: 991px){
+  .tenth:hover .overlay1, .twelth:hover .overlay2{
+    width: 100%;
+    height: auto;
+  }
+}
 .fa-google-plus, .fa-linkedin, .fa-twitter, .fa-facebook, .fa-skype{
   font-size: 30px;
   margin-left: 30px;
@@ -437,9 +430,9 @@ p span{
                 <div class="thumbnail tenth">
                   <img src="assets/images/sslc.jpg" alt="San Francisco"><hr>
                   <div class="overlay1">
-                      <div class="text" style="color: white;"> 
-                          <p>I have completed my SSLC on 2006 at T.M.H.N.U.Mat.Hr.Sec.Scool, Theni.</p>
-                          <p>I have secured a percentage of 90.1</p>
+                      <div class="text" style="color: white; text-align: center"> 
+                          <p>Completed my SSLC on 2006 at TMHNU Mat Hr Sec School.</p>
+                          <p>Secured a percentage of 90.1</p>
                       </div>                
                     </div>
                     <h3 style="text-align: center"> Tenth </h3>
@@ -451,9 +444,9 @@ p span{
                 <div class="thumbnail twelth">
                   <img src="assets/images/hsc.jpg" alt="San Francisco" ><hr>
                   <div class="overlay2">
-                      <div class="text" style="color: white;"> 
-                          I have completed my HSC on 2008 at T.M.H.N.U.Mat.Hr.Sec.Scool, Theni.<br>
-                          I have secured a percentage of 90.3
+                      <div class="text" style="color: white; text-align: center"> 
+                          <p>Completed my HSC on 2008 at TMHNU Hr Sec ScHool.</p>
+                          <p>Secured a percentage of 90.3</p>
                       </div>                
                   </div>
                   <h3 style="text-align: center"> Twelth </h3>
@@ -465,7 +458,7 @@ p span{
                 <div class="thumbnail twelth">
                   <img src="assets/images/bit1.jpg" alt="San Francisco" width=100% height=auto><hr>
                   <div class="overlay2">       
-                      <div class="text" style="color: white;"> 
+                      <div class="text" style="color: white; text-align: center;"> 
                           I have completed my BE in Mechcanical Engineering on 2012. <br>
                           I have secured a percentage of 9.31 CGPA.
                       </div>         
@@ -479,7 +472,7 @@ p span{
                   <div class="thumbnail twelth">
                     <img src="assets/images/uom.jpg" alt="San Francisco" width=100% height=auto><hr>
                     <div class="overlay2">
-                        <div class="text" style="color: white; text-align:left;"> 
+                        <div class="text" style="color: white; text-align: center;"> 
                               I have completed my M.B.A. in System Management on 2016. <br>
                               I have secured a percentage of 6.4 CGPA.
                         </div>                
